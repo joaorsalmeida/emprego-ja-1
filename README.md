@@ -1,24 +1,38 @@
-# README
+# Emprego Já
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Um site para encontrar vagas de emprego de forma simples e rápida.
 
-Things you may want to cover:
+## Para começar
 
-* Ruby version
+### Clone o repositório
 
-* System dependencies
+No console (terminal) digite:
 
-* Configuration
+`git clone git@github.com:campuscode/emprego-ja.git`
 
-* Database creation
+### Instale as dependências
 
-* Database initialization
+Para instalar as dependências do projeto, você precisa executar o _bundle_, para
+isso faça logo após clonar o projeto:
 
-* How to run the test suite
+`cd emprego-ja` (para ir para pasta do projeto)
 
-* Services (job queues, cache servers, search engines, etc.)
+`bundle install`
 
-* Deployment instructions
+### Rode os testes
 
-* ...
+`rspec`
+
+### Execute o projeto
+
+`rails server`
+
+
+### Abra no browser
+
+Abra no seu browser (Chrome, Firefox, etc.) o seguinte endereço:
+
+[http://localhost:3000](http://localhost:3000)
+
+
+[cc_link]:http://www.campuscode.com.br
